@@ -8,10 +8,9 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* Space between astronaut and bubble */
+  gap: 20px;
 }
 
 .modal-content {
@@ -22,10 +21,10 @@
   justify-content: center;
   background-color: #00000000;
   border: 0px;
+  margin-top: 0px;
 }
 
 .astronaut {
-  display: flex ;
   width: 150px;
   animation: float 3s ease-in-out infinite;
   margin-top: 300px;
@@ -41,39 +40,65 @@
 }
 
 .speech-bubble {
-  width: 600px; /* Fixed width */
-  height: 600px; /* Fixed height to keep it square */
+  width: 600px;
+  height: 600px;
   background: url('../assets/bubble.png') no-repeat center center / contain;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); */
-  font-size: 18px; /* Increased font size */
+  font-size: 18px;
   color: #333;
   text-align: center;
   border: 0px;
 }
 
 .speech-bubble p {
-  margin: 0;
+  margin: 50px;
   position: relative;
   z-index: 1;
 }
 
+.modal-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}
+
+.skip-button {
+  background-color: #ff0000;
+}
+
+.skip-button:hover {
+  background-color: #cc0000;
+}
+
 @media (max-width: 600px) {
   .modal {
-    flex-direction: column; /* Stack items vertically on small screens */
+    flex-direction: column;
   }
 
   .speech-bubble {
-    width: 80vw; /* Adjust width to be responsive */
-    height: 80vw; /* Maintain square shape */
-    padding: 10px; /* Adjust padding for smaller screens */
-    font-size: 16px; /* Adjust font size for smaller screens */
+    width: 80vw;
+    height: 80vw;
+    padding: 10px;
+    font-size: 16px;
   }
 
   .astronaut {
-    width: 100px; /* Adjust astronaut size for smaller screens */
+    width: 100px;
   }
 }
