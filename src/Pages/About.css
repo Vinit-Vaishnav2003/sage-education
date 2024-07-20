@@ -1,7 +1,19 @@
 .container img {
   display: block;
   margin: auto;
-  padding-top: 100px;
-  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  max-width: 80%;
   height: auto;
+}
+.container p{
+  display: block;
+  margin: 0 10%;
+  font-size: larger;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
