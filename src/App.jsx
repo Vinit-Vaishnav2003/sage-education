@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import About from './Pages/About'
 import Modal from './components/Modal'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Modal/>
+      <About/>
+      {/* <Modal/> */}
     </>
   )
 }
