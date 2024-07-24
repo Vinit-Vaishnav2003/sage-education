@@ -3,7 +3,7 @@ import './Client.css';
 import img from '../assets/bubble.png'
 const Client = () => {
   const images = [
-    { url: '/src/assets/books/aspirant.jpg', alt: 'Aspirants' },
+    { url: {img}, alt: 'Aspirants' },
     { url: '/src/assets/books/adhyapan.jpg', alt: 'Adhyapan Tutorials' },
     { url: '/src/assets/books/ace.jpg', alt: 'ACE' },
     { url: '/src/assets/books/isha.jpg', alt: 'Shete\'s Institute' },
