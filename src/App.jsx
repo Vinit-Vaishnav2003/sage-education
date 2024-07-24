@@ -16,15 +16,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="home">
+      <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <About />
       </div>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
       <hr />
-      <div id="client">
+      <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Client />
       </div>
-      <div id="product">
+      <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Product />
       </div>
     </>
