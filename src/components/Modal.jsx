@@ -11,7 +11,11 @@ const Modal = ({ onClose }) => {
   ];
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % messages.length);
+    if (currentIndex === messages.length - 1) {
+      onClose();
+    } else {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % messages.length);
+    }
   };
 
   const handlePrevious = () => {
@@ -31,8 +35,10 @@ const Modal = ({ onClose }) => {
         </div>
       </div>
       <div className="modal-buttons">
-        <button className="modal-button left " onClick={handlePrevious}>Previous</button>
-        <button className="modal-button right" onClick={handleNext}>Next</button>
+        <button className="modal-button left" onClick={handlePrevious}>Previous</button>
+        <button className="modal-button right" onClick={handleNext}>
+          {currentIndex === messages.length - 1 ? "End" : "Next"}
+        </button>
         <button className="modal-button skip-buttons" onClick={onClose}>Skip</button>
       </div>
     </div>
