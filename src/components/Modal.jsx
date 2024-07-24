@@ -31,8 +31,8 @@ const Modal = ({ onClose }) => {
         </div>
       </div>
       <div className="modal-buttons">
-        <button className="modal-button" onClick={handlePrevious}>Previous</button>
-        <button className="modal-button" onClick={handleNext}>Next</button>
+        <button className="modal-button left " onClick={handlePrevious}>Previous</button>
+        <button className="modal-button right" onClick={handleNext}>Next</button>
         <button className="modal-button skip-buttons" onClick={onClose}>Skip</button>
       </div>
     </div>
