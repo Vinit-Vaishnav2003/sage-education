@@ -25,7 +25,9 @@ const Modal = ({ onClose }) => {
           <img src={asto} alt="Astronaut" className="astronaut" />
         </div>
         <div className="speech-bubble">
-          <p>{messages[currentIndex]}</p>
+          <div className="message">
+            <p>{messages[currentIndex]}</p>
+          </div>
         </div>
       </div>
       <div className="modal-buttons">
