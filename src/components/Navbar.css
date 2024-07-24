@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  padding-top: 56px;
 }
 
 .navbar {
@@ -8,6 +9,18 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 1rem;
   justify-content: center;
+}
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the navbar is on top of other content */
+  background-color: #fff; /* Add a background color if needed */
+}
+
+body {
+  padding-top: 56px; /* Adjust this value if your navbar height changes */
 }
 
 .navbar-brand {

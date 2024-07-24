@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container about">
       <img src={image}/>
       <br/>
       <p>We are a youth-driven, career-education firm run by young people with the goal of providing students with
