@@ -1,9 +1,10 @@
 import React from 'react';
 import './Client.css';
 import img from '../assets/bubble.png'
+import book from '../assets/books/ace.jpg'
 const Client = () => {
   const images = [
-    { url: {img}, alt: 'Aspirants' },
+    { url: book, alt: 'Aspirants' },
     { url: '/src/assets/books/adhyapan.jpg', alt: 'Adhyapan Tutorials' },
     { url: '/src/assets/books/ace.jpg', alt: 'ACE' },
     { url: '/src/assets/books/isha.jpg', alt: 'Shete\'s Institute' },
