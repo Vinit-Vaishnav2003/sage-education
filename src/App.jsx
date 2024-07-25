@@ -20,7 +20,7 @@ function App() {
         <About />
       </div>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
-      <hr />
+
       <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Client />
       </div>

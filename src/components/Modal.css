@@ -11,6 +11,10 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  background-image: url('../assets//gg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .modal-content {
@@ -20,6 +24,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: #00000000;
+  /* background-image: url('../assets//gg.gif') ; */
   border: 0px;
   margin-top: 0px;
 }
@@ -57,7 +62,15 @@
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  font-weight: 800;
 }
+.message p{
+  color: rgb(0, 115, 255);
+  /* font-size: 50px; */
+  font-size: 120%;
+  text-shadow: 0px 1px 1px black;
+}
+
 .speech-bubble p {
   margin: 30px;
   position: relative;
@@ -114,7 +127,9 @@
   .message {
     margin: 0;
     margin-top: -30px;
+    font-weight: 200;
   }
+
   .astronaut {
     width: 150px;
     animation: float 3s ease-in-out infinite;
