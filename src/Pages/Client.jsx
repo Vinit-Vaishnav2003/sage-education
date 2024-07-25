@@ -1,15 +1,22 @@
 import React from 'react';
 import './Client.css';
 import img from '../assets/bubble.png'
-import book from '../assets/books/ace.jpg'
+
+import book1 from '../assets/books/aspirant.jpg'
+import book2 from '../assets/books/adhyapan.jpg'
+import book3 from '../assets/books/ace.jpg'
+import book4 from '../assets/books/isha.jpg'
+import book5 from '../assets/books/isha.jpg'
+import book6 from '../assets/books/wisdom.jpg'
+
 const Client = () => {
   const images = [
-    { url: book, alt: 'Aspirants' },
-    { url: '/src/assets/books/adhyapan.jpg', alt: 'Adhyapan Tutorials' },
-    { url: '/src/assets/books/ace.jpg', alt: 'ACE' },
-    { url: '/src/assets/books/isha.jpg', alt: 'Shete\'s Institute' },
-    { url: '/src/assets/books/isha.jpg', alt: 'Isha' },
-    { url: '/src/assets/books/wisdom.jpg', alt: 'Wisdom Tutorials' },
+    { url: book1, alt: 'Aspirants' },
+    { url: book2, alt: 'Adhyapan Tutorials' },
+    { url: book3, alt: 'ACE' },
+    { url: book4, alt: 'Shete\'s Institute' },
+    { url: book5, alt: 'Isha' },
+    { url: book6, alt: 'Wisdom Tutorials' },
   ];
 
   return (
