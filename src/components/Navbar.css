@@ -4,6 +4,9 @@ body {
   padding-top: 56px;
 }
 
+.logo img{
+  height: 60px;
+}
 .navbar {
   background: linear-gradient(90deg, #6a11cb, #2575fc);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -20,22 +20,26 @@ const Client = () => {
   ];
 
   return (
-    <div className="client-container">
-      <div className="client-image-gallery">
-        {images.map((image, index) => (
-          <div className="client-image-card" key={index}>
-            <img src={image.url} alt={image.alt} />
-            {console.log(image.url)}
-          </div>
-        ))}
-      </div>
-      <div className="client-call-to-action">
-        <p>
-          WAIT A MINUTE... IF YOU HAVE COME THIS FAR IN THIS WEBSITE, THEN PLEASE GET YOUR PHONE OUT, DIAL THIS 10-DIGIT NUMBER AND CALL US ONCE (MISSED CALL WORKS) OR WHATSAPP US. WE'LL BE MORE THAN HAPPY TO ASSIST YOU.
-        </p>
-        <p>
-          OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!
-        </p>
+    <div className="client">
+
+
+      <div className="client-container">
+        <div className="client-image-gallery">
+          {images.map((image, index) => (
+            <div className="client-image-card" key={index}>
+              <img src={image.url} alt={image.alt} />
+              {console.log(image.url)}
+            </div>
+          ))}
+        </div>
+        <div className="client-call-to-action">
+          <p>
+            WAIT A MINUTE... IF YOU HAVE COME THIS FAR IN THIS WEBSITE, THEN PLEASE GET YOUR PHONE OUT, DIAL THIS 10-DIGIT NUMBER AND CALL US ONCE (MISSED CALL WORKS) OR WHATSAPP US. WE'LL BE MORE THAN HAPPY TO ASSIST YOU.
+          </p>
+          <p>
+            OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!
+          </p>
+        </div>
       </div>
     </div>
   );
