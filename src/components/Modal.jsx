@@ -5,7 +5,7 @@ import asto from "../assets/asto.webp";
 const Modal = ({ onClose }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const messages = [
-    "Hello Pal! Hope you are doing great! We are Sage Educations, we're passionate about guiding students toward their ideal careers.",
+    `Hello Pal! Hope you are doing great! We are Sage Educations, we're passionate about guiding students toward their ideal careers.`,
     "And yes, we've poured our money just to prove the fact that Sage Educations is indeed a genuine career counselling firm.",
     "Join us and let's achieve your dreams together!"
   ];
