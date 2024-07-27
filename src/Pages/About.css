@@ -18,5 +18,13 @@
 
 }
 .about{
-  margin-bottom: 100px;
+  height: 100vh;
+}
+@media (max-width: 600px) {
+
+  
+  .about{
+    height: auto;
+  }
+
 }

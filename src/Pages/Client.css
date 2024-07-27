@@ -1,3 +1,6 @@
+.client{
+  height: 100vh;
+}
 .client-wrapper {
     display: flex;
     justify-content: center;
@@ -67,7 +70,10 @@
     .client-image-gallery {
       flex-direction: column;
     }
-  
+    
+    .client{
+      height: auto;
+    }
     .client-call-to-action p {
       font-size: 16px;
     }
