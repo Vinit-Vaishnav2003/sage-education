@@ -1,21 +1,11 @@
-import React from 'react';
-import './About.css';
+import React from 'react'
 
-const About = () => {
+function About() {
   return (
-    <div className="about">
-      <div className="container my-3">
-        <br />
-        <h1 className="about-title animate-fade-in">Hello Pal!</h1>
-        <br />
-        <h2 className="about-subtitle my-3 animate-fade-in">Hope You are doing Great !</h2>
-        <h2 className="about-subtitle my-3 animate-fade-in">We are Sage Educations, we're passionate about guiding students toward their ideal careers.</h2>
-        <br />
-        <h2 className="about-text animate-fade-in">And yes, we've poured our money just to prove the fact that Sage Educations is indeed a genuine career counselling firm,</h2>
-        <h2 className="about-text animate-fade-in">For the past three years, we've been helping students in Mumbai navigate their career paths through our Personalised Career Reports and Counselling Sessions.</h2>
-      </div>
+    <div>
+      
     </div>
-  );
+  )
 }
 
-export default About;
+export default About
