@@ -146,7 +146,4 @@
     height: 100%;
     object-fit: cover;
   }
-  .client-image-card:hover .client-image-card-inner {
-    transform: rotateY(180deg) ;
-  }
 }

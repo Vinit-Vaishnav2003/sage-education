@@ -6,7 +6,6 @@ import Modal from './components/Modal';
 import Client from './Pages/Client';
 import Product from './Pages/ProductProduct';
 import Footer from './components/Footer';
-
 import SecondPage from './Pages/SecondPage';
 
 
@@ -33,9 +32,6 @@ function App() {
       {isModalOpen && <Modal onClose={handleCloseModal} />}
       <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Client />
-      </div>
-      <div id="about" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <About />
       </div>
       <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Product />
