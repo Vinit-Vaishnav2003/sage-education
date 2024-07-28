@@ -2,6 +2,7 @@
 body {
     overflow: auto;
     scrollbar-width: none; 
+   
   }
   
   ::-webkit-scrollbar {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './Pages/About';
+import Home from './Pages/Home';
 import Modal from './components/Modal';
 import Client from './Pages/Client';
 import Product from './Pages/ProductProduct';
@@ -22,7 +22,7 @@ function App() {
     <>
       <Navbar />
       <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <About />
+        <Home />
       </div>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
       <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>

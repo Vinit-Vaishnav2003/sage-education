@@ -8,6 +8,8 @@ import book3 from '../assets/books/ace.jpg';
 import book4 from '../assets/books/isha.jpg';
 import book5 from '../assets/books/isha.jpg';
 import book6 from '../assets/books/wisdom.jpg';
+import book7 from '../assets/books/isha.jpg';
+import book8 from '../assets/books/wisdom.jpg';
 
 const Client = () => {
   const images = [
@@ -15,6 +17,8 @@ const Client = () => {
     { url: book2, alt: 'Adhyapan Tutorials', backContent: 'More details about Adhyapan Tutorials' },
     { url: book3, alt: 'ACE', backContent: 'More details about ACE' },
     { url: book4, alt: 'Shete\'s Institute', backContent: 'More details about Shete\'s Institute' },
+    { url: book5, alt: 'Isha', backContent: 'More details about Isha' },
+    { url: book6, alt: 'Wisdom Tutorials', backContent: 'More details about Wisdom Tutorials' },
     { url: book5, alt: 'Isha', backContent: 'More details about Isha' },
     { url: book6, alt: 'Wisdom Tutorials', backContent: 'More details about Wisdom Tutorials' },
   ];
