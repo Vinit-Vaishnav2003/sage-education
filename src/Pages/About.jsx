@@ -1,25 +1,21 @@
-import React from 'react'
-import image from '../image/logo.png'
-import './About.css'
+import React from 'react';
+import './About.css';
 
 const About = () => {
   return (
     <div className="about">
-      <div className="container about">
-        <img src={image} />
+      <div className="container my-3">
         <br />
-        <p>We are a youth-driven, career-education firm run by young people with the goal of providing students with
-          simple, yet psychologically sound, career-counselling services with credible and legit information about
-          careers, colleges, subjects, degrees, industries, and everything else matters in the process of career
-          decision-making. With personal contact when working with 10th graders, we try to solve their every
-          career-related worry. We discovered that only 7% of those from financially secure families succeed in
-          obtaining proper career guidance. We have guided 1000+ students till now and are seeking to achieve an
-          ultimate goal of reaching and helping every tier 2 and tier 3 city student in their
-          journey to pursue their bright career.</p>
-
+        <h1 className="about-title animate-fade-in">Hello Pal!</h1>
+        <br />
+        <h2 className="about-subtitle my-3 animate-fade-in">Hope You are doing Great !</h2>
+        <h2 className="about-subtitle my-3 animate-fade-in">We are Sage Educations, we're passionate about guiding students toward their ideal careers.</h2>
+        <br />
+        <h2 className="about-text animate-fade-in">And yes, we've poured our money just to prove the fact that Sage Educations is indeed a genuine career counselling firm,</h2>
+        <h2 className="about-text animate-fade-in">For the past three years, we've been helping students in Mumbai navigate their career paths through our Personalised Career Reports and Counselling Sessions.</h2>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
