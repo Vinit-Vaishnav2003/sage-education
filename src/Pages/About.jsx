@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-      <p>We are a youth-driven, career-education firm run by young people with the goal of providing students with
+      <p>We a youth-driven, career-education firm run by young people with the goal of providing students with
         simple, yet psychologically sound, career-counselling services with credible and legit information about
         careers, colleges, subjects, degrees, industries, and everything else matters in the process of career
         decision-making. With personal contact when working with 10th graders, we try to solve their every
