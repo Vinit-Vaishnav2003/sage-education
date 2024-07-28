@@ -90,5 +90,8 @@
       width: 80vw;
     height: 500px;
     }
+    .product-image-card:hover .product-image-card-inner {
+      transform: rotateY(180deg) ;
+    }
   }
   

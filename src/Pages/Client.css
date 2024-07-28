@@ -109,4 +109,7 @@
     width: 90vw;
     height: 500px;
   }
+  .client-image-card:hover .client-image-card-inner {
+    transform: rotateY(180deg) ;
+  }
 }
