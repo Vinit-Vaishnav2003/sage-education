@@ -1,87 +1,98 @@
 .second-page {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #7abbc3;
-    /* background-image: url('../assets/pngtree-space-day-astronaut-purple-image_808095.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .central-question {
-    color: #007bff;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .good-question {
-    color: #28a745;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .content p {
-    color: #333;
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    color: #333;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  .buttons button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  .buttons button:hover {
-    background-color: #0056b3;
-  }
-  
-  .section {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .section h2 {
-    color: #333;
-    font-size: 22px;
-    font-weight: bold;
-  }
-  
-  .section p {
-    color: #555;
-    font-size: 16px;
-  }
-  
-  .student-section {
-    background-color: #e0f7fa;
-  }
-  
-  .owner-section {
-    background-color: #ffebee;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #f4f4f9;
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.central-question {
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.good-question {
+  color: #e74c3c;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.content p {
+  color: #34495e;
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  color: #34495e;
+  font-size: 18px;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.buttons button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttons button:hover {
+  background-color: #2980b9;
+}
+
+.section {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #2c3e50;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section p {
+  color: #7f8c8d;
+  font-size: 18px;
+}
+
+.student-section {
+  background-color: #ecf0f1;
+}
+
+.owner-section {
+  background-color: #ffe6e6;
+}
