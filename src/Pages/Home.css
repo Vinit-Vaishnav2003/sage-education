@@ -58,6 +58,8 @@
   background-image: url('../assets/earth.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .animate-fade-in {
@@ -92,8 +94,11 @@
     font-size: 1.1em;
     margin-left: 5%;
   }
+  
   .home {
     height: auto;
+    padding-top: 50px;
+    padding-bottom: 0;
   }
   .home-text {
     margin: 0 5%;
