@@ -6,6 +6,7 @@ import Modal from './components/Modal';
 import Client from './Pages/Client';
 import Product from './Pages/ProductProduct';
 import Footer from './components/Footer';
+import SecondPage from './Pages/SecondPage';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -23,6 +24,9 @@ function App() {
       <Navbar />
       <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <Home />
+      </div>
+      <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+        <SecondPage/>
       </div>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
       <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
