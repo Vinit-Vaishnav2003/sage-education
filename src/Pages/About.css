@@ -53,7 +53,7 @@
   flex-direction: column;
   text-align: left;
   padding: 20px;
-  height: 100vh;
+  height: auto;
   background-image: url('../assets/earth.gif');
   background-repeat: no-repeat;
   background-size: cover;
