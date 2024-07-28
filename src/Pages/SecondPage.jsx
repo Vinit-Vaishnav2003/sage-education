@@ -4,7 +4,10 @@ import './SecondPage.css';
 const SecondPage = () => {
 
   const scrollToFooter = () => {
-    document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('student').scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToFooterr = () => {
+    document.getElementById('institute').scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -26,7 +29,7 @@ const SecondPage = () => {
         <p>Lets get more deep into it, tell us who are you</p>
         <div className="buttons">
           <button onClick={scrollToFooter}>I AM A STUDENT OR PARENT</button>
-          <button onClick={scrollToFooter}>I AM AN EDUCATIONAL INSTITUTE OWNER</button>
+          <button onClick={scrollToFooterr}>I AM AN EDUCATIONAL INSTITUTE OWNER</button>
         </div>
       </div>
     </div>

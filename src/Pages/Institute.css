@@ -1,0 +1,32 @@
+.institute-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    color: #34495e;
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.content h2 {
+    color: #e74c3c;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
