@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import SecondPage from './Pages/SecondPage';
 import Student from './Pages/Studnet';
 import Institute from './Pages/Institute';
+import About from './Pages/About';
+
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -29,6 +31,9 @@ function App() {
       </div>
       <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
         <SecondPage/>
+      </div>
+      <div id="about" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+        <About/>
       </div>
       {isModalOpen && <Modal onClose={handleCloseModal} />}
       <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
