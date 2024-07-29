@@ -1,0 +1,54 @@
+.about-container {
+    background-color: #0b3d91; /* Dark blue background for astronaut theme */
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+    }
+  
+    .about-image {
+      max-width: 50%;
+      margin-right: 20px;
+    }
+  
+    .about-text {
+      max-width: 50%;
+      text-align: left;
+    }
+  }
+  
