@@ -3,13 +3,29 @@ body {
   font-family: Arial, sans-serif;
   padding-top: 56px;
 }
-
-.logo img{
-  height: 60px;
+.nav-link.active{
+  font-weight: 700;
+  text-shadow: 0 0 1px white;
 }
+.nav-link.active::after, .nav-link:hover::after {
+  width: 100%;
+  color: red;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(0, 239, 16);
+}
+
+.logo img {
+  height: 60px;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 2px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+}
+
 .navbar {
   background: linear-gradient(90deg, #6a11cb, #2575fc);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('../assets/earth.gif');
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
   padding: 0.5rem 1rem;
   justify-content: center;
 }
@@ -58,6 +74,7 @@ body {
   padding: 0.5rem 1rem;
   transition: color 0.3s;
 }
+
 
 .nav-link:hover {
   color: #ffd700; /* Gold color */
