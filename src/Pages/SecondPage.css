@@ -96,3 +96,18 @@ a:hover {
 .owner-section {
   background-color: #ffe6e6;
 }
+
+
+@media (max-width: 600px) {
+
+  .second-page{
+    padding: 10px;
+  }
+  .buttons{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+  }
+}

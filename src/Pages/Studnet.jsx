@@ -37,8 +37,8 @@ const Student = () => {
         <div className="contact">
           <p>Get your cellphone out, call us or whatsapp us your career query</p>
           <p>WE LL BE THERE WITH A SOLUTION IN 24 HOURS!</p>
-          <p>TEXT - NAME<br />
-             STD<br />
+          <p>Sage Education<br />
+             000000000<br />
              SCHOOL<br />
              CITY
           </p>

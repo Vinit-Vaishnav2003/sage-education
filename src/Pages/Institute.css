@@ -30,3 +30,10 @@
     margin-bottom: 10px;
     text-align: center;
 }
+@media (max-width: 600px) {
+
+    .institute-page{
+      padding: 10px;
+    }
+  }
+  
