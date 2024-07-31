@@ -124,8 +124,11 @@
   }
 
   .client-image-card, .client-square-image-card {
-    width: 80vw;
-    height: auto;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .client-image-card-inner, .client-square-image-card-inner {
@@ -134,16 +137,23 @@
 
   .client-image-card:hover .client-image-card-inner, .client-square-image-card:hover .client-square-image-card-inner {
     transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
   }
 
   .client-image-card-front, .client-image-card-back, .client-square-image-card-front, .client-square-image-card-back {
     width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .client-image-card img, .client-square-image-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .client-square-image-card{
+    height: 300px;
   }
 }
