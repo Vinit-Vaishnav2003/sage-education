@@ -33,8 +33,13 @@
   }
   
   .footer-logo .logo-img {
-    width: 200px;
+    width: 500px;
     margin-bottom: 10px;
+    filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 2px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
   }
   
   .footer-explore,
@@ -106,6 +111,10 @@
     .footer-explore,
     .footer-contact {
       margin-top: 20px;
+    }
+    .footer-logo .logo-img {
+      width: 300px;
+      margin-bottom: 10px;
     }
   }
   

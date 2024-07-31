@@ -11,6 +11,7 @@ import Student from './Pages/Studnet';
 import Institute from './Pages/Institute';
 import About from './Pages/About';
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -24,37 +25,42 @@ function App() {
   };
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <Home />
-      </div>
-      <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <SecondPage/>
-      </div>
-      <div id="about" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <About/>
-      </div>
-      {isModalOpen && <Modal onClose={handleCloseModal} />}
-      <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <Client />
-      </div>
-      <div id="institute" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <Institute />
-      </div>
-      <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <Product />
-      </div>
-      <div id="student" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-        <Student />
-      </div>
-
-      <div id="footer" >
-        <Footer />
-      </div>
-      
-      <button className="contact-us-button" onClick={scrollToFooter}>Contact Us</button>
-    </>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <div id="home" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Home />
+              </div>
+              <div id="secondPage" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <SecondPage />
+              </div>
+              {isModalOpen && <Modal onClose={handleCloseModal} />}
+              <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Client />
+              </div>
+              <div id="institute" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Institute />
+              </div>
+              <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Product />
+              </div>
+              <div id="student" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Student />
+              </div>
+              <div id="footer">
+                <Footer />
+              </div>
+              <button className="contact-us-button" onClick={scrollToFooter}> <i class="fa-solid fa-phone"></i>‎ ‎ Contact Us</button>
+            </>
+          }
+        />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

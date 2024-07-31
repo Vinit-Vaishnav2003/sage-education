@@ -4,7 +4,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home">
-      <div className="container my-3">
+      <div className="container">
         <br />
         <h1 className="home-title animate-fade-in">Hello Pal!</h1>
         <br />
