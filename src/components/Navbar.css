@@ -14,11 +14,21 @@ body {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(0, 239, 16);
 }
+/* Navbar.css */
+.logo.secondary {
+  display: none;
+}
+
+@media (min-width: 991px) {
+  .logo.secondary {
+    display: block;
+  }
+}
 
 .logo img {
-  height: 60px;
-  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.8)) 
-          drop-shadow(0 0 2px rgba(255, 255, 255, 0.8)) 
+  height: 80px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) 
           drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
 }
 
