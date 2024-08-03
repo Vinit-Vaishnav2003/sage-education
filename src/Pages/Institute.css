@@ -1,6 +1,6 @@
-/* Institute.css */
+/* Apply the DM Serif Display font to the entire institute page, with Roboto as fallback */
 .institute-page {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'DM Serif Display', 'Roboto', serif; /* Primary font with fallback */
     padding: 40px;
     background-color: #f9f9f9;
     background-image: url('../assets/backgrounds/back3.jpg');
@@ -11,7 +11,9 @@
     padding-bottom: 100px;
 }
 
+/* Ensure Roboto is used in specific sections or elements if desired */
 .institute-content {
+    font-family: 'DM Serif Display', 'Roboto', serif; /* Use DM Serif Display with fallback */
     background-color: #0000008f;
     padding: 30px;
     border-radius: 10px;
@@ -19,16 +21,19 @@
 }
 
 .institute-content p {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for paragraph text */
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px 0;
     line-height: 1.6;
     text-align: justify;
+    font-weight: 540;
 }
 
 .institute-content h2 {
+    font-family: 'DM Serif Display', serif; /* Ensure heading uses DM Serif Display */
     color: #e74c3c;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;

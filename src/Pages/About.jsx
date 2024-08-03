@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-content">
-        <img src={placeholderImage} alt="Astronaut" className="about-image" />
+       
         <div className="about-text">
           <h1>About Us</h1>
           <p>
@@ -22,6 +22,8 @@ function About() {
             every tier 2 and tier 3 city student in their journey to pursue their bright career.
           </p>
         </div>
+        <br/>
+        <img src={placeholderImage} alt="Astronaut" className="about-image" />
       </div>
     </div>
   );
