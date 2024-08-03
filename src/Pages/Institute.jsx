@@ -4,7 +4,7 @@ import './Institute.css';
 const Institute = () => {
   return (
     <div className="institute-page">
-      <div className="content">
+      <div className="institute-content">
         <p>Imagine this: as the institute owner, you create personalized career books, each 20 pages long, for every student, personally crafted for every student, according to their personality, interest and everything of their. These books are psychologically sound yet easy to understand. Students connect with the content, finding answers to their career questions. Through these books, you help students clear up every doubt they have about their future paths. Which stream? Which subjects? Which career? Which entrances? Which degree? EVERYTHING !!! It's a personal touch that ensures students get the guidance they need to make informed decisions about their careers.</p>
         
         <p>ITS YOU WONDERFULLY AS A INSTITUTE OWNER</p>

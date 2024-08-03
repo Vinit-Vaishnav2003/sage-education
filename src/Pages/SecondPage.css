@@ -1,14 +1,14 @@
-.second-page {
-  
+/* SecondPage.css */
+.second-page-container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #f4f4f9;
-  background-image: url('../assets/backgrounds/vector-flat-space-design-background-600nw-572708635.webp');
+  background-image: url('../assets/backgrounds/back1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.central-question {
+.second-page-central-question {
   color: #ffffff;
   font-size: 28px;
   font-weight: bold;
@@ -16,21 +16,23 @@
   text-align: center;
 }
 
-.good-question {
+.second-page-good-question {
   color: #ff1900;
   font-size: 24px;
   font-weight: bold;
   margin: 20px 0;
-  text-shadow:0 0 2px rgb(0, 0, 0);
+  text-shadow: 0 0 2px rgb(0, 0, 0);
 }
-.contentt{
+
+.second-page-content {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.677);
   border-radius: 20px;
-  padding: 30px;
+  padding: 40px;
 }
-.contentt p {
+
+.second-page-content p {
   color: #e9e9e9;
   font-size: 20px;
   margin: 10px 0;
@@ -40,34 +42,35 @@
   font-weight: 600;
 }
 
-ul {
+.second-page-ul {
   list-style-type: disc;
   margin-left: 40px;
   color: #3c9eff;
   font-size: 18px;
 }
 
-ul li{
+.second-page-ul li {
   color: #3c9eff;
   font-size: 20px;
   text-shadow: 0 0 1px rgb(0, 0, 0);
 }
-a {
+
+.second-page-a {
   color: #e74c3c;
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover {
+.second-page-a:hover {
   text-decoration: underline;
 }
 
-.buttons {
+.second-page-buttons {
   margin-top: 30px;
   text-align: center;
 }
 
-.buttons button {
+.second-page-buttons button {
   background-color: #3498db;
   color: white;
   padding: 12px 25px;
@@ -80,11 +83,11 @@ a:hover {
   font-weight: bold;
 }
 
-.buttons button:hover {
+.second-page-buttons button:hover {
   background-color: #2980b9;
 }
 
-.section {
+.second-page-section {
   margin-top: 50px;
   padding: 30px;
   background-color: #fff;
@@ -92,37 +95,36 @@ a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.section h2 {
+.second-page-section h2 {
   color: #2c3e50;
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.section p {
+.second-page-section p {
   color: #7f8c8d;
   font-size: 18px;
 }
 
-.student-section {
+.second-page-student-section {
   background-color: #ecf0f1;
 }
 
-.owner-section {
+.second-page-owner-section {
   background-color: #ffe6e6;
 }
 
-
 @media (max-width: 600px) {
-
-  .second-page{
+  .second-page-container {
     padding: 10px;
   }
-  .buttons{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   justify-content: center;
-   align-items: center;
+  
+  .second-page-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }

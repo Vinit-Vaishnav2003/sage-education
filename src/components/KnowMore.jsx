@@ -18,7 +18,7 @@ const KnowMore = ({ onClose }) => {
         </div>
         <div className="knowmore-modal-body">
           <p className="knowmore-section-title">5 Dimensional Psychometric Assessment including Subjection Analysis</p>
-          <ul>
+          <ul className='llist'>
             <li>Personality assessment</li>
             <li>Stream-interest alignment</li>
             <li>Skill and aptitude evaluation</li>

@@ -6,6 +6,9 @@
   background-image: url('../assets/space_man.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .product-container {
@@ -22,28 +25,34 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
   margin-top: 20px;
 }
 
 .product-image-card {
   perspective: 1000px;
-  width: 250px;
-  height: 400px;
+  width: 300px;
+  height: 450px;
+  transition: transform 0.6s, z-index 0.6s;
+  position: relative;
 }
 
 .product-image-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.6s;
+  transition: transform 0.6s, opacity 0.6s;
   transform-style: preserve-3d;
   cursor: pointer;
 }
 
-.product-image-card:hover .product-image-card-inner {
-  transform: rotateY(180deg) scale(1.2);
+.product-image-card:hover {
+  transform: scale(1.4);
+  z-index: 10;
+}
 
+.product-image-card:hover .product-image-card-inner {
+  transform: rotateY(180deg);
 }
 
 .product-image-card-front,
@@ -55,7 +64,7 @@
   border: 2px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 4px 4px rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,6 +79,8 @@
   background-color: #444;
   color: white;
   transform: rotateY(180deg);
+  overflow-y: auto; /* Allow scrolling for overflow content */
+  padding: 10px;
 }
 
 .product-image-card img {
@@ -78,23 +89,28 @@
   object-fit: cover;
 }
 
+.product-image-card-back ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 0.9em; /* Reduce font size */
+}
+
+.product-image-card-back li {
+  margin-bottom: 5px; /* Reduce space between list items */
+}
+
 @media (max-width: 600px) {
   .product-image-gallery {
     flex-direction: column;
   }
 
-  .product {
-    height: auto;
-  }
-
   .product-image-card {
     width: 80vw;
     height: 500px;
-    }
-    .product-image-card:hover .product-image-card-inner {
-      transform: rotateY(180deg) ;
-    }
-  .product-image-card:hover .product-image-card-inner {
-    transform: rotateY(180deg) scale(1);
+  }
+
+  .product-image-card:hover {
+    transform: scale(1); /* Do not scale on small screens */
   }
 }
