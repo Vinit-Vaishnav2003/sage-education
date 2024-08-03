@@ -12,7 +12,7 @@ const SecondPage = () => {
 
   return (
     <div className="second-page-container">
-      <div className="second-page-content">
+      <div className="second-page-content" >
         <h1 style={{ paddingBottom: "20px" }} className="second-page-central-question">CENTRAL QUESTION!</h1>
         <p>What this sage educations is all about? What does a firm with an astronomer in their logo do?</p>
         <h2 className="second-page-good-question">GOOD QUESTION!, But the answer is more better and Simple!</h2>

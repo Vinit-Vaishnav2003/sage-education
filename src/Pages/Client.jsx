@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Client.css';
+
 import book1 from '../assets/books/aspirant.jpg';
 import book2 from '../assets/books/adhyapan.jpg';
 import book3 from '../assets/books/ace.jpg';
@@ -52,7 +53,7 @@ const Client = () => {
           ))}
         </div>
         <hr style={{ color: 'white' }} />
-        <h2 style={{ color: "white", textShadow: "2px 2px 2px black" }}>Schools We Worked With</h2>
+        <h2 style={{ color: "white", textShadow: "2px 2px 2px black" , fontFamily:"'DM Serif Display', serif" }}>Schools We Worked With</h2>
         <div className="client-square-image-gallery">
           {squareImages.map((image, index) => (
             <div className="client-square-image-card" key={index}>

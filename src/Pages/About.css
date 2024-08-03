@@ -1,54 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
 .about-container {
-    background-color: #0b3d91; /* Dark blue background for astronaut theme */
-    color: #ffffff; /* White text for contrast */
-    font-family: 'Arial', sans-serif;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 50px auto;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  }
-  
+  background-color: #0b3d91; /* Dark blue background */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-image: url('../assets/backgrounds/back2.jpg'); /* Add your background image here */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  min-height: 100vh; /* Minimum height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Include padding in width and height calculations */
+}
+
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  text-align: center;
+  width: 100%;
+  padding: 0 20px; /* Add padding for better readability */
+}
+
+.about-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
   .about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
-  
+
   .about-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    max-width: 50%;
+    margin-right: 20px;
   }
-  
+
   .about-text {
-    text-align: center;
+    max-width: 50%;
+    text-align: left;
   }
-  
-  .about-text h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  
-  .about-text p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  @media (min-width: 768px) {
-    .about-content {
-      flex-direction: row;
-    }
-  
-    .about-image {
-      max-width: 50%;
-      margin-right: 20px;
-    }
-  
-    .about-text {
-      max-width: 50%;
-      text-align: left;
-    }
-  }
-  
+}
