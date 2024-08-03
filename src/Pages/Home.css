@@ -10,7 +10,9 @@ body, .home, .home-title, .home-subtitle, .home-text {
   /* justify-content: center; */
   align-items: center;
 }
-
+.conttent{
+  margin-top: 50px;
+}
 .asto-container img {
   width: 150px;
   padding-top: 0px;
@@ -57,7 +59,6 @@ body, .home, .home-title, .home-subtitle, .home-text {
           drop-shadow(0 0 2px rgba(255, 255, 255, 0.451)) 
           drop-shadow(0 0 3px rgba(255, 255, 255, 0.438)); */
 }
-
 .home {
   background-color: white;
   display: flex;
