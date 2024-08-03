@@ -10,7 +10,12 @@
     padding-top: 150px;
     padding-bottom: 100px;
 }
-
+.institute-call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 .institute-content {
     background-color: #0000008f;
     padding: 30px;

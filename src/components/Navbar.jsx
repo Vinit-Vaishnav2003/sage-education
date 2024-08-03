@@ -77,10 +77,10 @@ const Navbar = () => {
               <a className={`nav-link ${activeLink === 'product' ? 'active' : ''}`} onClick={() => handleNavigation('product')}>Products</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${activeLink === 'institute' ? 'active' : ''}`} onClick={() => handleNavigation('institute')}>I'm Institute Owner</a>
+              <a className={`nav-link ${activeLink === 'institute' ? 'active' : ''}`} onClick={() => handleNavigation('institute')}>I'm <br /> Institute Owner</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${activeLink === 'student' ? 'active' : ''}`} onClick={() => handleNavigation('student')}>I'm Student/Parent</a>
+              <a className={`nav-link ${activeLink === 'student' ? 'active' : ''}`} onClick={() => handleNavigation('student')}>I'm <br /> Student / Parent</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link ${activeLink === 'footer' ? 'active' : ''}`} onClick={() => handleNavigation('footer')}>Contact</a>

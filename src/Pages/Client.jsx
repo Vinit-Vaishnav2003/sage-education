@@ -26,7 +26,7 @@ const Client = () => {
 
   const squareImages = [
     { url: book7, alt: 'Aspirants', backContent: 'Cambria International, Kalyan' },
-    { url: book8, alt: 'Adhyapan Tutorials', backContent: 'Leewar School, Palegaon' },
+    { url: book8, alt: 'Adhyapan Tutorials', backContent: 'Leeway School, Palegaon' },
     { url: book9, alt: 'ACE', backContent: 'Holy Faith English School, Ambernath' },
   ];
 

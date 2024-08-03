@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Institute.css';
+import KnowMore from '../components/KnowMore';
 
 const Institute = () => {
+  const [isKnowMoreOpen, setIsKnowMoreOpen] = useState(false);
+
+  const toggleKnowMore = () => {
+    setIsKnowMoreOpen(!isKnowMoreOpen);
+  };
+
   return (
     <div className="institute-page">
       <div className="institute-content">
@@ -16,6 +23,13 @@ const Institute = () => {
         
         <p>WE HAVE ALREADY HELPED FOLLOWING INSTITUTES AND SCHOOLS IN MUMBAI ... PLEASE HAVE A LOOK !!</p>
       </div>
+
+      <div className="institute-call-to-action">
+        <button onClick={toggleKnowMore} style={{ fontWeight: "bold", backgroundColor: 'blue', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
+          Know More ↓
+        </button>
+      </div>
+      {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
     </div>
   );
 };
