@@ -58,8 +58,9 @@
 }
 
 .student-call-to-action p {
-    color: #e74c3c;
+    color: #f9240c;
     font-weight: bold;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
 }
 
 .student-listt {
