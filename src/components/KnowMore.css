@@ -25,15 +25,16 @@ body.modal-open {
     max-width: 800px;
     max-height: 90%;
     overflow-y: auto;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 0, 1, 1);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    /* background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255);
   }
   
   .knowmore-modal-header {
@@ -77,13 +78,13 @@ body.modal-open {
     margin-bottom: 20px;
   }
   
-  ul {
+  llist {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
   }
   
-  ul li {
+  llist li {
     font-family: 'Montserrat', sans-serif;
     margin: 10px 0;
     color: #000000;

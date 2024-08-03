@@ -1,42 +1,44 @@
+/* Student.css */
 .student-page {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
     background-color: #f9f9f9;
-    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
-    background-repeat: repeat;
-    background-size: contain;
+    background-image: url('../assets/backgrounds/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.heading {
-    color: #2c3e50;
-    font-size: 28px;
+.student-heading {
+    color: #f9c300;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.content p {
-    color: #34495e;
+.student-content p {
+    color: #ffffff;
     font-size: 18px;
     margin: 10px 0;
     line-height: 1.6;
     text-align: justify;
 }
 
-.features-list {
+.student-features-list {
     list-style-type: none;
     margin-left: 0;
-    color: #34495e;
+    color: #ffffff;
     font-size: 18px;
 }
 
-.features-list ul {
+.student-features-list ul {
     list-style-type: disc;
     margin-left: 40px;
 }
 
-.contact, .call-to-action {
-    background-color: #fff;
+.student-contact, .student-call-to-action {
+    background-color: #00000064;
     padding: 20px;
     margin-top: 30px;
     border-radius: 10px;
@@ -44,24 +46,52 @@
     text-align: center;
 }
 
-.contact p, .call-to-action p {
+.student-contact p, .student-call-to-action p {
     color: #2c3e50;
     font-size: 18px;
     margin: 15px 0;
     line-height: 1.6;
 }
 
-.call-to-action p {
+.student-call-to-action p {
     color: #e74c3c;
     font-weight: bold;
 }
-@media (max-width: 600px) {
 
-    .student-page{
-      padding: 10px;
+.student-listt {
+    display: flex;
+    flex-direction: row;
+}
+
+.student-astronaut-image {
+    width: auto;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
     }
-    ul{
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 991px) {
+    .student-astronaut-image {
+        width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .student-page {
+        padding: 10px;
+    }
+    ul {
         padding-left: 5px;
     }
-  }
-  
+    .student-astronaut-image {
+        display: none;
+    }
+}
