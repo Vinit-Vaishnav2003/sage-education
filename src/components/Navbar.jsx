@@ -42,6 +42,11 @@ const Navbar = () => {
       document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
     }
   };
+  
+  const navbarCollapse = document.getElementById('navbarSupportedContent');
+  if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+    navbarCollapse.classList.remove('show');
+  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-fixed">

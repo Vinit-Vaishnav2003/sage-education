@@ -15,13 +15,13 @@ const Footer = () => {
                             <h3>FOLLOW Us</h3>
                             <div className="social-icons">
                                 <a style={{ marginLeft: "0px" }} href="https://wa.me/919594133951?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20My%20Geet" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa-brands fa-whatsapp"></i>
+                                <i className="fa-brands fa-whatsapp" style={{color: "#25d366",fontWeight:"600"}}></i>
                                 </a>
-                                <a href="https://www.instagram.com/sage/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/sage_educations?igsh=MWNyNGt0djJ2ZHFwdg==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram" style={{color: "brown"}}></i></a>
                             </div>
-                            <p><a href="mailto:sage@gmail.com">sageeducation@gmail.com</a></p>
-                            <p>xyz : +91 00000000 </p>
-                            <p> xxxxxx xxxxx, xxxxx xxxxx, xxxx D, xxx xxxxxx, xxxxxx xxxxx .</p>
+                            <p><a href="mailto:Sageducations@gmail.com">Sageducations@gmail.com</a></p>
+                            <p>+91 78753 63745 <br /> +91 9022843340 </p>
+                            <p> 1st Floor, Navre Arcade, Shop No.5, A Wing, <br /> Shiv Mandir Road, near Station, Ambernath, 421501</p>
                         </div>
                     </div></div>
                 <div className="footer-bottom">

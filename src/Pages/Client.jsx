@@ -3,31 +3,35 @@ import './Client.css';
 import book1 from '../assets/books/aspirant.jpg';
 import book2 from '../assets/books/adhyapan.jpg';
 import book3 from '../assets/books/ace.jpg';
-import book4 from '../assets/books/isha.jpg';
+import book4 from '../assets/books/shete.jpg';
 import book5 from '../assets/books/isha.jpg';
 import book6 from '../assets/books/wisdom.jpg';
-import book7 from '../assets/22734819289.png';
+import book7 from '../assets/books/cambria.png';
+import book8 from '../assets/books/leeway.jpeg';
+import book9 from '../assets/books/holy.png';
+
+import KnowMore from '../components/KnowMore';
 
 const Client = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isKnowMoreOpen, setIsKnowMoreOpen] = useState(false);
 
   const images = [
-    { url: book1, alt: 'Aspirants', backContent: 'More details about Aspirants' },
-    { url: book2, alt: 'Adhyapan Tutorials', backContent: 'More details about Adhyapan Tutorials' },
-    { url: book3, alt: 'ACE', backContent: 'More details about ACE' },
-    { url: book4, alt: 'Shete\'s Institute', backContent: 'More details about Shete\'s Institute' },
-    { url: book5, alt: 'Isha', backContent: 'More details about Isha' },
-    { url: book6, alt: 'Wisdom Tutorials', backContent: 'More details about Wisdom Tutorials' },
+    { url: book1, alt: 'Aspirants', backContent: 'Aspirants College & Academy.Xl - XII SCIENCEJEE, NEET, and MHT CET (Kalyan and Badlapur)' },
+    { url: book2, alt: 'Adhyapan Tutorials', backContent: 'Adhyapan TutorialsSchool section,Xl - XII SCIENCE, JEE, NEET, MHT CETXl - XII COMMERCE, CA, CS(Multiple locations in Mumbai)' },
+    { url: book3, alt: 'ACE', backContent: 'Ace, The Science AcademyXl - XII SCIENCE, JEE, NEET, MHT CET(Ambernath)' },
+    { url: book4, alt: 'Shete\'s Institute', backContent: 'Shete\'s Institute Of AcademicsSchool section,Xl - XII SCIENCE, JEE, NEET, MHT CETXl - XII COMMERCE, CA, CS(Kalyan and Badlapur)' },
+    { url: book5, alt: 'Isha', backContent: 'Isha Group TuitionsSchool section(Ulhasnagar)' },
+    { url: book6, alt: 'Wisdom Tutorials', backContent: 'Wisdom TutorialsSchool section(Ambernath)' },
   ];
 
   const squareImages = [
-    { url: book7, alt: 'Aspirants', backContent: 'More details about Aspirants' },
-    { url: book2, alt: 'Adhyapan Tutorials', backContent: 'More details about Adhyapan Tutorials' },
-    { url: book7, alt: 'ACE', backContent: 'More details about ACE' },
+    { url: book7, alt: 'Aspirants', backContent: 'Cambria International, Kalyan' },
+    { url: book8, alt: 'Adhyapan Tutorials', backContent: 'Leewar School, Palegaon' },
+    { url: book9, alt: 'ACE', backContent: 'Holy Faith English School, Ambernath' },
   ];
 
-  const handleToggleExpand = () => {
-    setIsExpanded(!isExpanded);
+  const toggleKnowMore = () => {
+    setIsKnowMoreOpen(!isKnowMoreOpen);
   };
 
   return (
@@ -70,19 +74,12 @@ const Client = () => {
           <p>
             OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!
           </p>
-          <button onClick={handleToggleExpand} style={{fontWeight:"bold", backgroundColor: '#007bff', color: 'voilet', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
+          <button onClick={toggleKnowMore} style={{fontWeight:"bold", backgroundColor: '#007bff', color: 'violet', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
             Know More ↓
           </button>
-          <div className={`more-info ${isExpanded ? 'expanded' : ''}`}>
-            <p>
-              Here is some more information about our services and how we can help you. Feel free to reach out to us for any queries or further details.
-            </p>
-            <p>
-              Contact us at: 123-456-7890 or email us at info@example.com.
-            </p>
-          </div>
         </div>
       </div>
+      {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
     </div>
   );
 };
