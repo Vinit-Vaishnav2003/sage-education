@@ -1,48 +1,30 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family: 'Arial', sans-serif;
-}
-
+/* About.css */
 .about-container {
-  background-color: #0b3d91; /* Dark blue background */
-  color: #ffffff; /* White text for contrast */
-  padding: 20px;
-  border-radius: 10px;
-  margin: 0 auto;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-image: url('../assets/backgrounds/back2.jpg'); /* Add your background image here */
-  background-size: cover; /* Cover the entire container */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the background from repeating */
-  min-height: 100vh; /* Minimum height of the viewport */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  box-sizing: border-box; /* Include padding in width and height calculations */
+  padding: 20px;
+
+  background-image: url('../assets/backgrounds/back2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin-top: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about-content {
+  max-width: 1000px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.about-text {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.495);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 100%;
-  padding: 0 20px; /* Add padding for better readability */
+  padding-bottom: 50px;
 }
 
 .about-text h1 {
@@ -51,23 +33,40 @@ html, body {
 }
 
 .about-text p {
-  margin-bottom: 15px;
+  font-size: 1.2em;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .about-content {
-    flex-direction: row;
-    justify-content: center;
+.about-image {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-text h1 {
+    font-size: 2em;
+  }
+
+  .about-text p {
+    font-size: 1em;
   }
 
   .about-image {
-    max-width: 50%;
-    margin-right: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text h1 {
+    font-size: 1.5em;
   }
 
-  .about-text {
-    max-width: 50%;
-    text-align: left;
+  .about-text p {
+    font-size: 0.9em;
   }
 }
