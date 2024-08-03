@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Student.css';
 import astronaut from '../assets/astronust/asto2.png'; // Add your astronaut image here
+import KnowMore from '../components/KnowMore';
 
 const Student = () => {
+  const [isKnowMoreOpen, setIsKnowMoreOpen] = useState(false);
+
+  const toggleKnowMore = () => {
+    setIsKnowMoreOpen(!isKnowMoreOpen);
+  };
+
   return (
     <div className="student-page">
       <div className="student-content">
@@ -32,8 +39,11 @@ const Student = () => {
             <li>Offer doubt-solving career counseling sessions:</li>
             <ul>
               <li>Address every career doubt and concern</li>
-              <li>Provide primary, secondary, and backup career plans</li>
+              <li>Provide primary, secondary, and backup career plans <span onClick={toggleKnowMore} style={{  color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>Know More about carrier Report →</span>  </li>
             </ul>
+            {/* <button onClick={toggleKnowMore} style={{ fontWeight: "bold", backgroundColor: 'white', color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
+              Know More ↓
+            </button> */}
           </ul>
           <div className="student-astoo">
             <img src={astronaut} alt="Astronaut" className="student-astronaut-image" />
@@ -46,6 +56,7 @@ const Student = () => {
           <p>OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!</p>
         </div>
       </div>
+      {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
     </div>
   );
 };
