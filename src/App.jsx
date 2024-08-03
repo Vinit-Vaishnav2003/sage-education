@@ -54,7 +54,7 @@ function App() {
               <div id="footer">
                 <Footer />
               </div>
-              <button className="contact-us-button" onClick={scrollToFooter}> <i class="fa-solid fa-phone"></i>‎ ‎ Contact Us</button>
+              <button className="contact-us-button" onClick={scrollToFooter}> <i className="fa-solid fa-phone"></i>‎ ‎ Contact Us</button>
             </>
           }
         />

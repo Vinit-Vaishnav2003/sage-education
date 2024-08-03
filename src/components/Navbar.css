@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
   padding-top: 56px;
 }
 .nav-link.active{
@@ -14,6 +15,10 @@ body {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(0, 239, 16);
 }
+.navbar-toggler-icon {
+  background-image: url("../assets/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png");
+}
+
 /* Navbar.css */
 .logo.secondary {
   display: none;
@@ -87,6 +92,7 @@ body {
 
 
 .nav-link:hover {
+  text-decoration: none;
   color: #ffd700; /* Gold color */
 }
 
