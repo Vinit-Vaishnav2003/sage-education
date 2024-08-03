@@ -83,15 +83,19 @@
   
   .footer-contact .social-icons {
     display: flex;
-    /* justify-content: space-around; */
     justify-content: flex-start;
     margin-bottom: 10px;
   }
   
   .footer-contact .social-icons a {
     color: #333;
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 20px;
+  }
+  .footer-contact  p {
+    
+    font-size: 20px;
+   
   }
   .footer-contact .social-icons a :hover{
     color: brown;
