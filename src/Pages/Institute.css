@@ -10,11 +10,22 @@
     padding-top: 150px;
     padding-bottom: 100px;
 }
-.institute-call-to-action{
+.buttonn-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    flex-direction: row;
+    gap :20px
+}
+.institute-call-to-action button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(17, 0, 255);
+    border: 0px;
+    padding-top: 10px;
+    text-shadow: 0 0 1px white;
 }
 .institute-content {
     background-color: #0000008f;

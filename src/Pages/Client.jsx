@@ -74,9 +74,9 @@ const Client = () => {
           <p>
             OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!
           </p>
-          <button onClick={toggleKnowMore} style={{fontWeight:"bold", backgroundColor: 'white', color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
+          {/* <button onClick={toggleKnowMore} style={{fontWeight:"bold", backgroundColor: 'white', color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
             Know More ↓
-          </button>
+          </button> */}
         </div>
       </div>
       {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
