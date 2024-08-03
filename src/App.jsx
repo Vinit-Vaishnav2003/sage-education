@@ -38,15 +38,15 @@ function App() {
               <div id="secondPage" style={{ paddingTop: '70px', marginTop: '-70px' }}>
                 <SecondPage />
               </div>
-              {isModalOpen && <Modal onClose={handleCloseModal} />}
-              <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-                <Client />
+              <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Product />
               </div>
+              {isModalOpen && <Modal onClose={handleCloseModal} />}
               <div id="institute" style={{ paddingTop: '70px', marginTop: '-70px' }}>
                 <Institute />
               </div>
-              <div id="product" style={{ paddingTop: '70px', marginTop: '-70px' }}>
-                <Product />
+              <div id="client" style={{ paddingTop: '70px', marginTop: '-70px' }}>
+                <Client />
               </div>
               <div id="student" style={{ paddingTop: '70px', marginTop: '-70px' }}>
                 <Student />

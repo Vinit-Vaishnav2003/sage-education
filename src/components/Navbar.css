@@ -1,20 +1,23 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-
   padding-top: 56px;
 }
-.nav-link.active{
+
+.nav-link.active {
   font-weight: 700;
   text-shadow: 0 0 1px white;
 }
+
 .nav-link.active::after, .nav-link:hover::after {
   width: 100%;
   color: red;
 }
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(0, 239, 16);
 }
+
 .navbar-toggler-icon {
   background-image: url("../assets/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png");
 }
@@ -44,6 +47,7 @@ body {
   padding: 0.5rem 1rem;
   justify-content: center;
 }
+
 .navbar-fixed {
   position: fixed;
   top: 0;
@@ -90,10 +94,10 @@ body {
   transition: color 0.3s;
 }
 
-
 .nav-link:hover {
   text-decoration: none;
   color: #ffd700; /* Gold color */
+  cursor: pointer; /* Change cursor to pointer on hover */
 }
 
 .nav-link::after {
