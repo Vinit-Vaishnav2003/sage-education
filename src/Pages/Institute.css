@@ -1,6 +1,6 @@
-/* Apply the DM Serif Display font to the entire institute page, with Roboto as fallback */
+/* Institute.css */
 .institute-page {
-    font-family: 'DM Serif Display', 'Roboto', serif; /* Primary font with fallback */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
     background-color: #f9f9f9;
     background-image: url('../assets/backgrounds/back3.jpg');
@@ -10,10 +10,24 @@
     padding-top: 150px;
     padding-bottom: 100px;
 }
-
-/* Ensure Roboto is used in specific sections or elements if desired */
+.buttonn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap :20px
+}
+.institute-call-to-action button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(17, 0, 255);
+    border: 0px;
+    padding-top: 10px;
+    text-shadow: 0 0 1px white;
+}
 .institute-content {
-    font-family: 'DM Serif Display', 'Roboto', serif; /* Use DM Serif Display with fallback */
     background-color: #0000008f;
     padding: 30px;
     border-radius: 10px;
@@ -21,19 +35,16 @@
 }
 
 .institute-content p {
-    font-family: 'Roboto', sans-serif; /* Use Roboto for paragraph text */
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     margin: 10px 0;
     line-height: 1.6;
     text-align: justify;
-    font-weight: 540;
 }
 
 .institute-content h2 {
-    font-family: 'DM Serif Display', serif; /* Ensure heading uses DM Serif Display */
     color: #e74c3c;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
