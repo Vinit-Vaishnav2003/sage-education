@@ -20,18 +20,26 @@ const Institute = () => {
         <div className="buttonn-container">
           <h2>PERSONALISED-PSYCHOMETRIC CAREER REPORT</h2>
           <div className="institute-call-to-action">
-            <button onClick={toggleKnowMore} >
-              Know More about carrier Report →
+            <button onClick={toggleKnowMore}>
+              Know More about Career Report →
             </button>
           </div>
-
         </div>
+
+        <div className="download-buttons-container">
+          <button className="download-button" onClick={() => window.open('https://drive.google.com/uc?export=download&id=1XSim8Lu19S8IqNujhjRLFG83P-mcc2Eu', '_blank')}>
+            Old Pattern <br /> SCIENCE/ COMMERSE/ ARTS
+          </button>
+          <button className="download-button" onClick={() => window.open('https://drive.google.com/uc?export=download&id=1_J-zYOyzEsq4l3Zh84JPsq_V3vwlmT8D', '_blank')}>
+            New NEP 2020 Based <br /> Subject Pattern
+          </button>
+        </div>
+
         <p>We Provide It On Your Brand, Your Letter-head</p>
         <p>To Quadruple Your Footfalls, Triple Your Admissions, And Double Your Goodwill !!!</p>
 
         <p>WE HAVE ALREADY HELPED FOLLOWING INSTITUTES AND SCHOOLS IN MUMBAI ... PLEASE HAVE A LOOK !!</p>
       </div>
-
 
       {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
     </div>
