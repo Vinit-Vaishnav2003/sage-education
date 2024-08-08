@@ -1,7 +1,4 @@
-/* Apply the DM Serif Display font to specific elements */
-body, .home, .home-title, .home-subtitle, .home-text {
-  font-family: 'DM Serif Display', serif; /* Apply the custom font */
-}
+
 
 .asto-container {
   display: flex;
@@ -47,8 +44,7 @@ body, .home, .home-title, .home-subtitle, .home-text {
   padding-left: 0px;
   /* background-color: rgba(240, 248, 255, 0.7);  */
   border-radius: 10px;
-  /* Use the DM Serif Display font, with fallback */
-  font-family: 'DM Serif Display', serif;
+ 
   /* box-shadow: 0 2px 2px rgb(255, 255, 255); */
   color: #15ff00;
   text-align: left;
