@@ -1,4 +1,7 @@
 
+.client-image-card-back p {
+  white-space: pre-line;
+}
 
 .client {
   height: auto;

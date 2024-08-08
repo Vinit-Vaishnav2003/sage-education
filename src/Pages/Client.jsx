@@ -17,18 +17,18 @@ const Client = () => {
   const [isKnowMoreOpen, setIsKnowMoreOpen] = useState(false);
 
   const images = [
-    { url: book1, alt: 'Aspirants', backContent: 'Aspirants College & Academy.Xl - XII SCIENCEJEE, NEET, and MHT CET (Kalyan and Badlapur)' },
-    { url: book2, alt: 'Adhyapan Tutorials', backContent: 'Adhyapan TutorialsSchool section,Xl - XII SCIENCE, JEE, NEET, MHT CETXl - XII COMMERCE, CA, CS(Multiple locations in Mumbai)' },
-    { url: book3, alt: 'ACE', backContent: 'Ace, The Science AcademyXl - XII SCIENCE, JEE, NEET, MHT CET(Ambernath)' },
-    { url: book4, alt: 'Shete\'s Institute', backContent: 'Shete\'s Institute Of AcademicsSchool section,Xl - XII SCIENCE, JEE, NEET, MHT CETXl - XII COMMERCE, CA, CS(Kalyan and Badlapur)' },
-    { url: book5, alt: 'Isha', backContent: 'Isha Group TuitionsSchool section(Ulhasnagar)' },
-    { url: book6, alt: 'Wisdom Tutorials', backContent: 'Wisdom TutorialsSchool section(Ambernath)' },
+    { url: book1, alt: 'Aspirants', backContent: 'Aspirants College & Academy\nXl - XII SCIENCE, JEE, NEET, MHT CET\n(Kalyan and Badlapur)' },
+    { url: book2, alt: 'Adhyapan Tutorials', backContent: 'Adhyapan Tutorials\nSchool section,\nXl - XII SCIENCE, JEE, NEET, MHT CET\nXl - XII COMMERCE, CA, CS\n(Multiple locations in Mumbai)' },
+    { url: book3, alt: 'ACE', backContent: 'Ace, The Science Academy\nXl - XII SCIENCE, JEE, NEET, MHT CET\n(Ambernath)' },
+    { url: book4, alt: 'Shete\'s Institute', backContent: 'Shete\'s Institute Of Academics\nSchool section,\nXl - XII SCIENCE, JEE, NEET, MHT CET\nXl - XII COMMERCE, CA, CS\n(Kalyan and Badlapur)' },
+    { url: book5, alt: 'Isha', backContent: 'Isha Group Tuitions\nSchool section\n(Ulhasnagar)' },
+    { url: book6, alt: 'Wisdom Tutorials', backContent: 'Wisdom Tutorials\nSchool section\n(Ambernath)' },
   ];
 
   const squareImages = [
-    { url: book7, alt: 'Aspirants', backContent: 'Cambria International, Kalyan' },
-    { url: book8, alt: 'Adhyapan Tutorials', backContent: 'Leeway School, Palegaon' },
-    { url: book9, alt: 'ACE', backContent: 'Holy Faith English School, Ambernath' },
+    { url: book7, alt: 'Cambria International', backContent: 'Cambria International\n(Kalyan)' },
+    { url: book8, alt: 'Leeway School', backContent: 'Leeway School\n(Palegaon)' },
+    { url: book9, alt: 'Holy Faith English School', backContent: 'Holy Faith English School\n(Ambernath)' },
   ];
 
   const toggleKnowMore = () => {
@@ -53,7 +53,7 @@ const Client = () => {
           ))}
         </div>
         <hr style={{ color: 'white' }} />
-        <h2 style={{ color: "white", textShadow: "2px 2px 2px black"  }}>Schools We Worked With</h2>
+        <h2 style={{ color: "white", textShadow: "2px 2px 2px black"  }}>Schools We Have Worked With</h2>
         <div className="client-square-image-gallery">
           {squareImages.map((image, index) => (
             <div className="client-square-image-card" key={index}>
