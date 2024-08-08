@@ -53,7 +53,7 @@ const Client = () => {
           ))}
         </div>
         <hr style={{ color: 'white' }} />
-        <h2 style={{ color: "white", textShadow: "2px 2px 2px black" , fontFamily:"'DM Serif Display', serif" }}>Schools We Worked With</h2>
+        <h2 style={{ color: "white", textShadow: "2px 2px 2px black"  }}>Schools We Worked With</h2>
         <div className="client-square-image-gallery">
           {squareImages.map((image, index) => (
             <div className="client-square-image-card" key={index}>
@@ -75,9 +75,6 @@ const Client = () => {
           <p>
             OUR ASTRONAUT WILL TAKE OFF FROM THIS EARTH NOW!
           </p>
-          {/* <button onClick={toggleKnowMore} style={{fontWeight:"bold", backgroundColor: 'white', color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
-            Know More ↓
-          </button> */}
         </div>
       </div>
       {isKnowMoreOpen && <KnowMore onClose={toggleKnowMore} />}
