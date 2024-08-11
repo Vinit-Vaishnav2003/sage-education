@@ -23,7 +23,7 @@ const SecondPage = () => {
           <li>11th - 12th students</li>
         </ul>
         <p>
-          So, if a student is in 10th, then we make Personalised - Psychometric Career Reports for them!!!! 
+          So, if a student is in 10th, then we make Personalised - Psychometric Career Reports for them!!!!‎ ‎ ‎ ‎  
           <a 
             className="second-page-a" 
             href="https://drive.google.com/uc?export=download&id=1XSim8Lu19S8IqNujhjRLFG83P-mcc2Eu" 
@@ -34,7 +34,7 @@ const SecondPage = () => {
           </a>
         </p>
         <p>
-          So, if a student is in 11th-12th, then we make Personalised Career Maps for them!!!!
+          So, if a student is in 11th-12th, then we make Personalised Career Maps for them!!!!‎ ‎ ‎ ‎ 
           <a 
             className="second-page-a" 
             href="https://drive.google.com/uc?export=download&id=1sJe6ULBwLs-J5KY4jBTUyGCCdF3htQiI" 
@@ -45,7 +45,7 @@ const SecondPage = () => {
           </a>
         </p>
         <p>
-          So, if a student is in 8th-9th, then we introduce them to the process of introspective thinking and career inquisitiveness!!!!
+          So, if a student is in 8th-9th, then we introduce them to the process of introspective thinking and career inquisitiveness!!!!‎ ‎ ‎ ‎ 
           <a 
             className="second-page-a" 
             href="https://drive.google.com/uc?export=download&id=1pSA6mMYoyc4WgHUxIAsEg1w6Zi208COU" 

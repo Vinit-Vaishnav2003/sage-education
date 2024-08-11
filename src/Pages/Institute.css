@@ -21,11 +21,13 @@
 }
 
 .institute-call-to-action button {
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(17, 0, 255);
+    background-color: rgb(0, 110, 255);
+    color: rgb(255, 255, 255);
     border: 0px;
-    padding-top: 10px;
     text-shadow: 0 0 1px white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 15px;
 }
 
 .institute-content {
@@ -61,11 +63,11 @@
 }
 
 .download-button {
-    background-color: #3498db00;
-    color: rgb(244, 0, 0);
+    background-color: #000000b4;
+    color: rgb(41, 244, 0);
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
@@ -74,6 +76,7 @@
 
 .download-button:hover {
     background-color: #ffffff;
+    color: rgb(255, 0, 0);
 }
 
 @media (max-width: 600px) {
