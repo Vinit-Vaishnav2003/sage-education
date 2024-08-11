@@ -36,14 +36,18 @@ const Student = () => {
               <li>Relevant entrance exams</li>
               <li>Recommended colleges and institutions</li>
             </ul>
-            <li>Offer doubt-solving career counseling sessions:</li>
-            <ul>
-              <li>Address every career doubt and concern</li>
-              <li>Provide primary, secondary, and backup career plans <span onClick={toggleKnowMore} style={{  color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>Know More about carrier Report →</span>  </li>
-            </ul>
-            {/* <button onClick={toggleKnowMore} style={{ fontWeight: "bold", backgroundColor: 'white', color: 'blue', padding: '10px 20px', border: 'none', borderRadius: '10px', cursor: 'pointer' }}>
-              Know More ↓
-            </button> */}
+            <li>
+              Offer doubt-solving career counseling sessions:
+              <ul>
+                <li>Address every career doubt and concern</li>
+                <li style={{ whiteSpace: 'nowrap' }}>
+                  Provide primary, secondary, and backup career plans ‎ ‎ ‎ 
+                  <span onClick={toggleKnowMore} style={{ color: 'blue', padding: '5px 15px', border: 'none', borderRadius: '20px', cursor: 'pointer',backgroundColor:"white" }}>
+                    Know More about carrier Report →
+                  </span>
+                </li>
+              </ul>
+            </li>
           </ul>
           <div className="student-astoo">
             <img src={astronaut} alt="Astronaut" className="student-astronaut-image" />
