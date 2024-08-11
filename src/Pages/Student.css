@@ -1,6 +1,6 @@
-/* Apply the DM Serif Display font to the entire student page */
+
 .student-page {
-    font-family: 'DM Serif Display', serif; /* Apply the custom font */
+    
     padding: 40px;
     background-color: #f9f9f9;
     background-image: url('../assets/backgrounds/back2.jpg');
@@ -10,7 +10,7 @@
 }
 
 .student-heading {
-    font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+    
     color: #f9c300;
     font-size: 32px;
     font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 .student-content p {
-    font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+    
     color: #ffffff;
     font-size: 18px;
     margin: 10px 0;
@@ -28,7 +28,7 @@
 }
 
 .student-features-list {
-    font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+    
     list-style-type: none;
     margin-left: 0;
     color: #ffffff;
@@ -41,7 +41,7 @@
 }
 
 .student-contact, .student-call-to-action {
-    font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+    
     background-color: #00000064;
     padding: 20px;
     margin-top: 30px;
@@ -58,7 +58,7 @@
 }
 
 .student-call-to-action p {
-    color: #f9240c;
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 3px rgb(0, 0, 0);
 }

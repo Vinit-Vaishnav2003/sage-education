@@ -1,6 +1,5 @@
 /* Apply the DM Serif Display font to the entire second page */
 .second-page-container {
-  font-family: 'DM Serif Display', serif; /* Apply the custom font */
   padding: 40px;
   background-color: #f4f4f9;
   background-image: url('../assets/backgrounds/back1.jpg');
@@ -9,7 +8,7 @@
 }
 
 .second-page-central-question {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+
   color: #ffffff;
   font-size: 28px;
   font-weight: bold;
@@ -18,7 +17,7 @@
 }
 
 .second-page-good-question {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+
   color: #ff1900;
   font-size: 24px;
   font-weight: bold;
@@ -27,7 +26,7 @@
 }
 
 .second-page-content {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.677);
@@ -36,7 +35,7 @@
 }
 
 .second-page-content p {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   color: #e9e9e9;
   font-size: 20px;
   margin: 10px 0;
@@ -47,7 +46,7 @@
 }
 
 .second-page-ul {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   list-style-type: disc;
   margin-left: 40px;
   color: #3c9eff;
@@ -55,7 +54,7 @@
 }
 
 .second-page-ul li {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   color: #3c9eff;
   font-size: 20px;
   text-shadow: 0 0 1px rgb(0, 0, 0);
@@ -78,13 +77,13 @@
 }
 
 .second-page-buttons {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   margin-top: 30px;
   text-align: center;
 }
 
 .second-page-buttons button {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   background-color: #3498db;
   color: white;
   padding: 12px 25px;
@@ -102,7 +101,7 @@
 }
 
 .second-page-section {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   margin-top: 50px;
   padding: 30px;
   background-color: #fff;
@@ -111,7 +110,7 @@
 }
 
 .second-page-section h2 {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   color: #2c3e50;
   font-size: 26px;
   font-weight: bold;
@@ -119,7 +118,7 @@
 }
 
 .second-page-section p {
-  font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
+ 
   color: #7f8c8d;
   font-size: 18px;
 }

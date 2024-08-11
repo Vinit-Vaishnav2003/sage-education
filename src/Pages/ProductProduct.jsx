@@ -31,12 +31,12 @@ const Product = () => {
         'SPECIALLY for 11th-12th Class Students',
         '12-Page Career Report',
         'Based on subjective assessment',
-        'Incorporates insights from psychomet ic assessme t',
-        'Provides an actionable plan for the st dent',
-        'Focuses on strategic planning for entr nce exams',
-        'Offers primary, secondary, and backu plans',
-        'Includes insights on post-graduation lans',
-        'Personalized information about colleg s and exam based on student marks',
+        'Incorporates insights from psychometric assessment',
+        'Provides an actionable plan for the student',
+        'Focuses on strategic planning for entrance exams',
+        'Offers primary, secondary, and backup plans',
+        'Includes insights on post-graduation plans',
+        'Personalized information about colleges and exam based on student marks',
         'Preparation for studying abroad',
         'Highly personalized assessed data for students'
       ]
@@ -76,7 +76,7 @@ const Product = () => {
               <div className="product-image-card-inner">
                 <div className="product-image-card-front">
                   <img src={image.url} alt={image.alt} />
-                  {/* <p>{image.content}</p> */}
+                  <p>{image.content}</p>
                 </div>
                 <div className="product-image-card-back">
                   <ul>
