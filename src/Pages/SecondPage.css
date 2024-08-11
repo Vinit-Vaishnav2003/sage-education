@@ -63,13 +63,14 @@
 
 .second-page-a {
   font-family: 'DM Serif Display', serif; /* Ensure the custom font is used here */
-  color: #e74c3c;
+  color: #e6e6e6;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 300;
   background-color: rgb(0, 13, 255);
   padding: 3px 10px 3px 10px;
   border-radius: 20px;
   text-shadow: 2px black;
+  font-size: 19px;
 }
 
 .second-page-a:hover {
