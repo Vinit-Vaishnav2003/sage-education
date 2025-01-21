@@ -10,7 +10,7 @@ const Product = () => {
     {
       url: product1,
       alt: 'CAREER NAVIGATOR',
-      content: 'PERSONALISED - PSYCHOMETRIC CAREER REPORT 10TH GRADE (MAIN)',
+      content:'INTROSPECTIVE CAREER NAVIGATOR 8-9TH GRADE',
       backContent: [
 
         'Specially for 8th- th Class Students',
@@ -44,7 +44,7 @@ const Product = () => {
     {
       url: product3,
       alt: 'CAREER REPORT',
-      content: 'INTROSPECTIVE CAREER NAVIGATOR 8-9TH GRADE',
+      content:  'PERSONALISED - PSYCHOMETRIC CAREER REPORT 10TH GRADE (MAIN)',
       backContent: [
         'SPECIALLY for 10th class students',
         '20-Page Career Report',

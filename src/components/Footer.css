@@ -15,10 +15,6 @@
     padding: 20px 0;
     color: #333;
   }
-  .mygeet{
-    font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  }
   .footertext{font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;}
   
@@ -115,6 +111,7 @@
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #ddd;
+    background-color: #ddddddcd ;
   }
   
   @media (max-width: 768px) {
